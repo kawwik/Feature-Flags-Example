@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApi", "ExampleApi\ExampleApi.csproj", "{4B19E9AA-6F2C-44ED-8EB9-A93B60E9F506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{B1185128-D749-4520-8362-127B66C7D976}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kubernetes", "Kubernetes", "{D14AC6DE-2BCF-4DF3-8523-4B0FDAA10FE6}"
+	ProjectSection(SolutionItems) = preProject
+		ConfigMap.yaml = ConfigMap.yaml
+		Application.yaml = Application.yaml
+		Deployment.yaml = Deployment.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViaConfigurationExample", "ViaConfigurationExample\ViaConfigurationExample.csproj", "{96DD3300-8CAE-488C-B694-A164A9BFD89A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{2B53344B-3CC8-4918-A599-745FFD90FEFC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B19E9AA-6F2C-44ED-8EB9-A93B60E9F506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B19E9AA-6F2C-44ED-8EB9-A93B60E9F506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B19E9AA-6F2C-44ED-8EB9-A93B60E9F506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B19E9AA-6F2C-44ED-8EB9-A93B60E9F506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1185128-D749-4520-8362-127B66C7D976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1185128-D749-4520-8362-127B66C7D976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1185128-D749-4520-8362-127B66C7D976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1185128-D749-4520-8362-127B66C7D976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DD3300-8CAE-488C-B694-A164A9BFD89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DD3300-8CAE-488C-B694-A164A9BFD89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DD3300-8CAE-488C-B694-A164A9BFD89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DD3300-8CAE-488C-B694-A164A9BFD89A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
