@@ -1,19 +1,11 @@
-using Microsoft.FeatureManagement;
-using WebApplication2.Utils;
+using WebApplication2.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddFeatureManagement();
-
-builder.Configuration.AddJsonFile(
-    new ConfigMapFileProvider("config"),
-    "feature-flags.json", 
-    optional: false,
-    reloadOnChange: true);
+builder.Services.ConfigureFeatureFlags(builder.Configuration);
 
 var app = builder.Build();
 
