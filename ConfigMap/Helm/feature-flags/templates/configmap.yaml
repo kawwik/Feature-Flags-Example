@@ -4,4 +4,4 @@ metadata:
   name: feature-flags
 data:
   feature-flags.json: |-
-  {{ .Files.Get "features.json" | indent 4 }}
+{{ .Files.Get "features.json" | indent 4 }}
