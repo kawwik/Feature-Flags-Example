@@ -34,7 +34,7 @@ public class FeatureFlagExampleController : ControllerBase
         if (account is null)
             return Problem("Не найден пользователь с таким логином", statusCode: (int)HttpStatusCode.NotFound);
 
-        if (await _featureManager.IsEnabledAsync("CheckPassword"))
+        if (await _featureManager.IsEnabledAsync(FeatureFlags.CheckPassword))
         {
             if (loginDto.Password != account.Password)
                 return Problem("Неверный пароль", statusCode: (int)HttpStatusCode.Unauthorized);
