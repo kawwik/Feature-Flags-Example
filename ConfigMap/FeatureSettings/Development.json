@@ -1,3 +1,5 @@
 {
-  "CheckPassword": false
+  "FeatureManagement": {
+    "CheckPassword": false
+  }
 }
