@@ -13,6 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigMap", "ConfigMap\ConfigMap.csproj", "{380568EB-9122-4E6B-9328-BCCE1A63E723}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manifests", "Manifests", "{72CABDE0-7F6E-4A43-9AD0-3A5097093FEE}"
+	ProjectSection(SolutionItems) = preProject
+		Manifests\Application.yaml = Manifests\Application.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F84DFC8B-D127-43B4-BCE7-FEB25128C8A4}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\curl = Scripts\curl
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
