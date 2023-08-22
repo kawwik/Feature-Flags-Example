@@ -31,7 +31,7 @@ cp .\ConfigMap\FeatureSettings\Development.json .\ConfigMap\Helm\feature-flags\
 ```
 
 ```shell
-helm install feature-flags .\ConfigMap\Helm\feature-flags\features.json
+helm install feature-flags .\ConfigMap\Helm\feature-flags
 ```
 
 Далее разместим само приложение:
