@@ -56,5 +56,5 @@ curl --request POST -H "Content-Type: application/json" --data "{\"login\":\"log
 features.json и обновим наш Helm релиз:
 
 ```shell
-helm upgrade feature-flags .\ConfigMap\Helm\feature-flags\features.json
+helm upgrade feature-flags .\ConfigMap\Helm\feature-flags
 ```
