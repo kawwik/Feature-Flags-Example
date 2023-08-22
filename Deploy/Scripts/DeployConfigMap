@@ -1,2 +1,0 @@
-﻿cp .\ConfigMap\FeatureSettings\Production.json .\ConfigMap\Helm\feature-flags\features.json
-helm upgrade -i feature-flags .\ConfigMap\Helm\feature-flags\
