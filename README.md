@@ -4,10 +4,10 @@
 
 ## Структура репозитория
 
-- Папка [ConfigMap](tree/master/ConfigMap) содержит Helm Chart для деплоя ConfigMap
+- Папка [ConfigMap](ConfigMap) содержит Helm Chart для деплоя ConfigMap
 и файлы с определениями флагов для Development и Production сред.
-- Папка [Deploy](tree/master/Deploy) содержит манифест для размещения приложения
-- Папка [ExampleApi](tree/master/ExampleApi) содержит тестовое API
+- Папка [Deploy](Deploy) содержит манифест для размещения приложения
+- Папка [ExampleApi](ExampleApi) содержит тестовое API
 
 ## Описание примера
 
